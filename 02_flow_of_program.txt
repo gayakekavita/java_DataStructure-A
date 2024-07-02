@@ -1,0 +1,20 @@
+--Parts of flowchart:
+  1.start(Oval / Circle)
+  2.stop 
+  3.input(Parelligram)
+  4.output(Parelligram)
+  5.processes(Rectangle)
+  6. condition (Rombhous)
+
+ --graphical representation of algorithm is kwon as "flowchart".
+ -- it is used to solve complex problems.
+ --Example .
+  --psudo code >
+    >  start
+    >  input num
+    >  while c<num
+    >  if(num%c==0) { "not prime" exit()}
+    >  c=c+1
+    >  end while 
+   
+    
