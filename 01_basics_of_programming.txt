@@ -1,0 +1,59 @@
+(Kunal kushawaha series).
+--computer understand only 0 and 1 format language .
+--we write code in human readable format.
+-- after compilation code in converted in machine understandable language.
+--Types of langauages:
+   1. Procedural languages.
+   2. Functional languages.
+   3. Object Oriented languages 
+-- 1. Procedural language:
+      *specifies a series of well-structured steps and procedures to compose a program.
+      *contains a systematic order of statements, functions and commands to complete a task.
+-- 2. Functional language:
+      * wrting a program in only pure function.
+      * never modify a variable but only create new ones as output .
+      * used in situations where we have to perform lots of different operations on the same set of data
+-- 3.Object Oriented Programming:
+      * more emphasize on "object"
+      * code+data=object
+      * Devloped to make it : easier to devlop , debug , reuse and maintain software.
+      * instance of a class is called as "object".
+      * it divides code in small small chunks .
+-- Another types of languages :
+   1. Static language 
+   2. Dynamic language 
+
+   1.Static language :
+       *performs type checking at compile time.
+       * errors will show at compile time .
+       * Declare datatype before we use it .
+         int a; float b; (Java)
+
+         int c=10;
+        c="hello" ; here it will give error for c=10 then c="hello" in static language.
+       *more control.
+
+   2. Dynamic language :
+       * performs type checking at runtime.
+       * error might not show till the program run.
+       * no nedd to declare datatype .
+          a=10;
+          b= "kavi" 
+          (Python)
+          c=10;
+          c="hi" ;
+        here firstly we are assigning c =10 means integer variable and then we are assigning a string value still it will not give error in dynamic language.
+
+--Types of Memory in computer ::
+   1.stack memory
+   2.heap memory
+  if we declare a variable like :
+      int a =10;
+      here "a" is a reference variable and "10" is object.
+      "a"------->is stored into --------> stack memory.
+      "10"----------> is stored into ------> heap memory.
+      --* Mutliple reference variable can point to same object present in the heap memory.
+      -- if we do any changes in object by a reference variable then its changes is reflected to every reference variable which are pointing to that same object.
+      -- if any object which is stored into heap memory do not have any reference variable then it will be removed or deleted from heap memory by garbage collector in java.
+
+  
