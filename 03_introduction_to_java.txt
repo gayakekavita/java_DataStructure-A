@@ -3,7 +3,7 @@
 --we write code in  human readable format using .java extension .
 -- then compiler takes whole file and compiles it and convert it into .class file (Byte code ) .
 -- then interpreter interpretes byte code line by line and convert it into machine code (0 and 1) .
-
+-- To run byte code we need java virtual Machine(JVM).
 
 --why java is platform independant?
   * Byte code can run on all operating systems.
@@ -24,4 +24,41 @@
    1. JDK (Java Devlopment Kit)=  JRE + Devlopment tools
    2. JRE (Java runtime environment )= JVM + Liabrary classes 
    3. JVM (Java virtual machine)
-   4.
+   4.JIT (Just in time ).
+
+  1.JDK :
+  - It is a package which includes ::
+      # devlopment tools : which provide an environment to devlope your program.
+      # JRE : to execute your program
+      # a compiler : javac 
+      # archiver : jar
+      # docs generater : javadocs 
+      # interpreter / loader
+  - It provides envrionment to devlop and run java programs.
+
+
+  2. JRE :
+  -stands for "Java Runtime Environment".
+  - It is an installation package that provides environment to only run the program.
+  - It consist of :
+       # Deployment technologies 
+       # user interface toolkits 
+       # Integration liabraries
+       # base liabraries 
+       # JVM
+  - After we get the .class file , the next things happen at runtime :
+       # class loader loads all the classes needed to execute the program.
+       # JVM sends code to Byte code verifier to check the format of the code .
+  - we cannot create java programs using JRE .
+  - we can only run java programs.
+
+
+---------Compile time ----------
+ .java file ----> is taken by javac compiler---> converted into ------------>.class file 
+
+
+
+-----------RunTime-----------------
+class loader----------->Byte code verifier--------->Interpreter------------->Runtime-------->Hardware 
+
+   # 
