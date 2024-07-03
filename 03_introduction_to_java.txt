@@ -1,0 +1,27 @@
+.java file -----> compiler compiles it ---->.class file ----> interpreter ----> Machine code (0 and 1).
+
+--we write code in  human readable format using .java extension .
+-- then compiler takes whole file and compiles it and convert it into .class file (Byte code ) .
+-- then interpreter interpretes byte code line by line and convert it into machine code (0 and 1) .
+
+
+--why java is platform independant?
+  * Byte code can run on all operating systems.
+  * we  need to convert source code into machine code so computer can understand it .
+  * compiler helps in doing this by turing it into exucutable code .
+  * this executable code is set of instructions for the computer.
+  * after compiling c/c++ file we get .exe file which is platform dependant.
+  * In java we get byte code , JVM converrts it into machine code .
+  * so it can run on any platform .
+  * Java is platform independant but JVM is platform dependant.
+
+--why jvm is platform dependant?
+  * because for every different os there is different JVM.
+  * if we are using windows then we downlod the JVM of windows .
+  * if we are using linux then we download the JVm of linux os.
+
+-- architecure of java
+   1. JDK (Java Devlopment Kit)=  JRE + Devlopment tools
+   2. JRE (Java runtime environment )= JVM + Liabrary classes 
+   3. JVM (Java virtual machine)
+   4.
