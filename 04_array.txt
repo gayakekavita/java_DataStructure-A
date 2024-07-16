@@ -1,0 +1,24 @@
+--array is collection of the elements of the same data  type.
+--declaration syntax 
+   datatype[] array_var_name= new datatype[size];
+   ex:  1. int[] roll=new int[5];
+        2. int[] roll={12,34,443,3,2};
+        -- int[] roll : declaration of roll array 
+                      : here roll is getting defined in the stack 
+                      : this happen at compile time
+        -- roll=new int[] 
+                      :here actual object is created in heap memory .
+                      : this thing is happend at runtime , is called  as dynamic memory allocation.
+        -- in the example "roll" is a reference variable present in stack memory which ponts to the object {12,34,443,3,2} object present in heap memory.
+** because of following reason array are  not continuos in java ***
+-- all the object are in heap.
+-- heap objects are not continous.
+-- heap memory is runtime area memory.
+-- dynmaic memory allocation.
+-- allocation is totally depend on jvm.
+-- "new" is a keyword is used to create objects in heap memory .
+-- in the example :
+      int[] roll={12,34,443,3,2}; 
+       * here we wre not putting "new" but  "{12,34,443,3,2};" do internal work of creatiog object in heap memory .
+-- for "integer" array if we do not intialize anything then by 
+                      
