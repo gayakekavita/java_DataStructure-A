@@ -20,5 +20,26 @@
 -- in the example :
       int[] roll={12,34,443,3,2}; 
        * here we wre not putting "new" but  "{12,34,443,3,2};" do internal work of creatiog object in heap memory .
--- for "integer" array if we do not intialize anything then by 
+-- for "integer" array if we do not intialize anything then by default it stores value "0".
+-- for string data type by default it stores "null".
+   1. String str=null 
+    but we cannot assign  null value to integer data type 
+        int a=null (we cannot do like this );
+-- any refence varibale in java by default of type null.
+-- primitive stores in stack memory (int,char,boolean)
+-- non-primitives stores in heap memory (string,array, other complex data types).
+
+
+******** 2D array **********************
+ 1D array is defined with int[] (one)bracket.
+ 2D array is defined with int[][] (two) bracket.
+ --In java we can work with 1D , 2D and 3D array after 3D array we cannot visualize such a huge dimensional array . so we use numpy and pandas liabraries in python.
+-- 2D array example ::
+                   0        1         2   (index of arr)
+   int [][] arr={{1,2,3}, {2,5,6}, {8,9,0}}
+                  0 1 2    0 1 2    0 1 2  (index of each individual array in arr)
+-- if we do arr.length then it will return "3" as output because here there are three rows or we can say arrays are in the "arr".
+   for storing elements in 2D array then we store it as follow :
+            array_name[row][column];
+    
                       
