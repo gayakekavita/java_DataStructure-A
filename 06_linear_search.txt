@@ -1,0 +1,6 @@
+Time Complexity ::
+1. Best case : O(1) constant time  // when search element is present at index 0 in list then it is best case because at start of the array we found our element 
+                                   //one comparision in the best case
+2. worst  case :O(N) //n= number of elements present in data structure 
+                    //  you do not found search element or search element is found at last index.
+3. average case : 
