@@ -1,0 +1,38 @@
+--Binary search is a optimized way of searching.
+-- binary search is applied only sorted array.
+-- for applying binary search on array it is necessary that array should be sorted .
+--it can be in ascending or descending .
+-- steps :
+     1. set low and high 
+     2. find middle 
+     3. apply condition based on tagret element 
+     4. update value of low and high based on coditions .
+     5. when target== array[mid] 
+          return true;
+-- mid= low+high /2 
+        or 
+   mid= low +(high-low)/2;
+  (we use this formula to calculate mid as above because sometime low+high may exceed the range of int to avoid that conditionn we use it.)
+
+-- Why binary search? 
+   * typically in linear search we require search space as "N".
+   * but in  binary search we are calculating mid element so either it will search in first half or in second half so search space is reduced .
+   * so search space in binary search is "N/2".
+   * for next iteration it will be "(N/2)/2".
+   * it will goes till element is found .
+   * so as the we move forward its search space is reduced .
+   * suppose level or iteration = k 
+     so required search space complexity is : (N/ 2^k).
+-- To find value of k :
+    take log at both side 
+    log(N)= log(2^k)
+    logN= klog_2
+    logN/ log_2=k
+    *****
+     k= logN/log_2
+     k= log_2N
+
+-- Total number of comparisions in the worst case for binary search is "log(N)".
+
+
+
