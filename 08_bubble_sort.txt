@@ -1,0 +1,22 @@
+--Bubble sort is one of the sorting algorithm.
+-- here iterations are called as pass .
+--  at first pass largest element is placed at last position of array.
+-- at second pass second largest element is placed at second last position of the array.
+--it is also known as sinking sort .
+--also known as exchange sort.
+-- space complexity is : O(1)
+    it means we do not require any extra space to sort the array.
+-- it is also known as "inplace" algorithm.
+-- Time complexity :
+     Best Case: O(n)
+     Worst case:O(n2) [when array is in descending order]
+    n= no of comparision 
+
+-- as the size of array is growing the number of comparision is also growing in the worst case .
+
+--  if the array is already sorted to track this thing inside the inner  loop  when swapping is happened thenn we make swapped variable as "true".
+-- at the end of inner for loop then we will give a check 
+    if(!swapped){
+       break;
+    }
+   because if the array is already sorted then it is not going to run further for loop.
